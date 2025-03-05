@@ -29,19 +29,43 @@ Cada función tiene su respectiva derivada y se representa visualmente en los gr
 
 ---
 
+# Proyecto de Funciones Matemáticas
+
+Este repositorio contiene la implementación de diversas funciones matemáticas utilizadas en modelos de aprendizaje automático y redes neuronales.
+
+## Requisitos Previos
+Antes de ejecutar el código, asegúrate de tener instaladas las siguientes bibliotecas en tu entorno de Python:
+
+```sh
+pip install numpy matplotlib
+```
+
 ## Estructura del Repositorio
 
+```
 proyecto_funciones/
-│── src/                      # Código fuente
-│   │── escalon.py            # Función Escalón
-│   │── gaussiana.py          # Función Gaussiana
-│   │── identidad.py          # Función Identidad
-│   │── lineal_a_tramos.py    # Función Lineal a Tramos
-│   │── relu.py               # Función ReLU
-│   │── sigmoidal.py          # Función Sigmoide
-│   │── sinusoidal.py         # Función Sinusoidal
-│   │── tangente_hiperbolica.py # Función Tangente Hiperbólica
-│── main.py                   # Punto de entrada para ejecutar todas las funciones
-│── README.md                 # Este documento
+│── src/                        # Código fuente
+│   ├── escalon.py              # Función Escalón
+│   ├── gaussiana.py            # Función Gaussiana
+│   ├── identidad.py            # Función Identidad
+│   ├── lineal_a_tramos.py      # Función Lineal a Tramos
+│   ├── relu.py                 # Función ReLU
+│   ├── sigmoidal.py            # Función Sigmoide
+│   ├── sinusoidal.py           # Función Sinusoidal
+│   ├── tangente_hiperbolica.py # Función Tangente Hiperbólica
+│── main.py                     # Punto de entrada para ejecutar todas las funciones
+│── README.md                   # Este documento
+```
 
+## Uso
+Para ejecutar todas las funciones, usa el siguiente comando:
 
+```sh
+python main.py
+```
+
+## Contribuciones
+Si deseas contribuir, por favor realiza un fork del repositorio, crea una rama con tus cambios y envía un pull request.
+
+## Licencia
+Este proyecto está bajo la licencia MIT.
