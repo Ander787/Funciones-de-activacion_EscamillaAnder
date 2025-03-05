@@ -4,6 +4,7 @@
 **Materia:** Sistemas de Visión Artificial  
 **Tarea:** Tarea 2.1 - Gráficas de funciones de activación con su derivada  
 **Estudiante:** Ander Heinrich Escamilla Wong
+
 **Fecha:** 03/03/2025  
 
 ---
